@@ -3,9 +3,9 @@ go:
   - 1.4
 install:
   - pwd && ls -al && go install ./cmd/timestamp
-  - go get github.com/astaxie/beego 
+  - go get github.com/astaxie/beego
+  - pwd && ls -al
   - cat web/routers/router.go 
   - ls -al $HOME/gopath/
   - ls -al $HOME/gopath/bin
   - ls -al $HOME/gopath/src
-  - go install ./web
