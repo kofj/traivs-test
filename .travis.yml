@@ -6,3 +6,5 @@ install:
   - go get github.com/astaxie/beego 
   - go install ./web
   - ls -al $HOME/gopath/
+  - ls -al $HOME/gopath/bin
+  - ls -al $HOME/gopath/src
